@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <drawable name="darkgray">#808080</drawable> 
+  <drawable name="white">#FFFFFF</drawable> 
+  <drawable name="blue">#0000FF</drawable> 
+  <drawable name="blue_login_num">#5D9AF0</drawable>
+  <drawable name="yellow">#FFFF00</drawable>
+  <drawable name="green_button">#04B431</drawable>
+  <drawable name="sky_button_config">#81BEF7</drawable>
+  <drawable name="bg_screen">#FAF1E4</drawable>
+</resources>

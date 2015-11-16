@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snowboard</string>
+    <string name="app_version">2.0</string>
+    <!-- Not translatable -->
+    <string name="ga_api_key">UA-28342846-2</string>
+    <string name="ga_dispatchPeriod">10</string>
+    <string name="ga_debug">true</string>
+    <string name="versionFeatures">+play_market +gps_status -parking_plugin -blackberry -free_version</string>
+</resources>

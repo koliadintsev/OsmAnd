@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spinnertext"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/worksheetlabel"
+            android:text="Start Date" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/editstartdate"
+            style="@style/worksheetinputdate"
+            android:text="select date" >
+        </TextView> 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Weather" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editweather"
+                    style="@style/worksheetinput.textarea" />
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Job Notes" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editjobnotes"
+                    style="@style/worksheetinput.textarea" />
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Sub Contractor and Work Performed" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editcontractorwork"
+                    style="@style/worksheetinput.textarea" />
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Accidents / Incidents" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editaccident"
+                    style="@style/worksheetinput.textarea" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Temperature" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/edittemperature"
+                    style="@style/worksheetinput.textarea" >
+                </TextView>
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Visitors" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editvisitor"
+                    style="@style/worksheetinput.textarea" />
+
+                <TextView
+                    style="@style/worksheetlabel"
+                    android:text="Comments" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/editcomment"
+                    style="@style/worksheetinput.textarea" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

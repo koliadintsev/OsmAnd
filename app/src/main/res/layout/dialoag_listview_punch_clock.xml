@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_punch"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp" >
+
+    <ImageView
+        android:id="@+id/iMg_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/dialog_route_list"
+        android:src="@drawable/dialog_punch_clock" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/iMg_dialog_title"
+        android:text="@string/dialog_punch_clock"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iMg_cancel_dialog"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/close"
+        android:src="@drawable/dialog_close" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/iMg_cancel_dialog"
+        android:gravity="center_horizontal"
+        android:text="@string/close"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_add_details"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:background="@drawable/off"
+        android:gravity="center"
+        android:text="Add Details"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By:" />
+
+        <Button
+            android:id="@+id/btn_sort"
+            android:layout_width="110dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_sort"
+            android:text="Due Date/Time"
+            android:textColor="@color/color_black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

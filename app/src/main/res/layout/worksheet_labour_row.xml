@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.operasoft.snowboard.view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/panelrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.operasoft.snowboard.view.worksheet.row.DtoSpinner
+            android:id="@+id/spinnertask"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:prompt="@string/select_service" />
+
+        <com.operasoft.snowboard.view.worksheet.row.DtoSpinner
+            android:id="@+id/spinneremployee"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:prompt="@string/select_user" />
+
+        <TextView
+            android:id="@+id/editdate"
+            style="@style/worksheetinputdate"
+            android:layout_width="130dp"
+            android:layout_marginRight="8dp"
+            android:text="select date" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edithours"
+            style="@style/worksheetinput"
+            android:layout_width="50dp"
+            android:gravity="right"
+            android:inputType="number"
+            android:maxLength="3"
+            android:selectAllOnFocus="true" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spinnerminutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_action_delete" />
+
+</RelativeLayout>

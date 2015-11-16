@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/Bus_stop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Route 61"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_marginLeft="40dp"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stop 6 of 21"
+        android:id="@+id/textView11"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_marginLeft="44dp"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00:30 remaining"
+        android:id="@+id/textView12"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="#0dff00"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_marginLeft="57dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/Stop_camera"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/Child" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="On Board"
+        android:id="@+id/textView13"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_marginLeft="46dp"
+        android:textStyle="bold"
+        android:textSize="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3 / 8"
+        android:id="@+id/textView14"
+        android:textSize="168dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="_____________________________________"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lucas Savoie"
+        android:id="@+id/textView16"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView15"
+        android:layout_alignRight="@+id/textView14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fail to Stop"
+        android:id="@+id/button2"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:background="@color/color_red"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_above="@+id/textView14"
+        android:onClick="onTestActivity3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gate OK"
+        android:id="@+id/button3"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:background="#00fe00"
+        android:layout_toLeftOf="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_below="@+id/textView15"
+        android:onClick="onTestActivity3" />
+</RelativeLayout>

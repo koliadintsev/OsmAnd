@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/geofenceLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp">
+    
+    <TextView
+        android:id="@+id/geofenceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/color_black"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/geofenceCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geofenceName"
+        android:text="CUR"
+        android:textColor="@color/dark_blue"
+        android:textSize="26dp" />
+    
+    <View 
+        android:id="@+id/geofenceSeparator"
+        android:layout_width="45dp"
+        android:layout_height="5dp"
+        android:layout_below="@id/geofenceCurrent"
+        
+        android:background="@drawable/geofence_separator" />
+    
+    <TextView
+        android:id="@+id/geofenceExpected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geofenceSeparator"
+        android:text="EXP"
+        android:textColor="@color/color_black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/geofenceUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/geofenceSeparator"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@id/geofenceSeparator"
+        android:text="kg/km"
+        android:textColor="@color/color_black"
+        android:textSize="20dp" />
+    
+</RelativeLayout>

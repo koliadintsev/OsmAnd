@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/route_deficiency"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <Spinner
+                android:id="@+id/rd_def_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" >
+
+            <EditText
+                android:id="@+id/rd_air_temp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Air T (C)"
+                android:inputType="number|numberSigned" />
+"
+
+            <EditText
+                android:id="@+id/rd_ground_temp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Ground T (C)"
+                android:inputType="number|numberSigned" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/rd_notes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.19"
+            android:ems="10"
+            android:gravity="center_vertical|top"
+            android:hint="Notes"
+            android:inputType="textMultiLine"
+            android:maxLines="140" />
+
+        <LinearLayout
+            android:id="@+id/rd_horizLayout"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.45"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/rd_newPicture"
+                android:layout_width="89dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_action_new_picture" />
+
+            <HorizontalScrollView
+                android:id="@+id/rd_horizontalScrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <LinearLayout
+                    android:id="@+id/rd_imageLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.00" >
+
+            <Button
+                android:id="@+id/rd_submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/custom_red_button"
+                android:text="SUBMIT"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    <!--TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:text="Notes" /-->
+
+</LinearLayout>

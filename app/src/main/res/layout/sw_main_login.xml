@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_login_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ad000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        layout="@layout/login_titlebar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2.1"
+            android:orientation="vertical"
+            android:paddingLeft="2dp" >
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/login_header"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint=" pin"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/login_screen_linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/login_screen_linearLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/login_screen_button1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="1"
+                        android:textColor="#fff"
+                        android:textSize="45dip"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="2"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="3"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/login_screen_linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/login_screen_linearLayout1"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/login_screen_button4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="4"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="5"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="6"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/login_screen_linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/login_screen_linearLayout2"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/login_screen_button7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="7"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="8"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/login_screen_button9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="9"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/login_screen_linearLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/login_screen_buttonOK"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/login_custom_button"
+                            android:src="@drawable/login_delete"
+                            android:textSize="45dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/login_screen_button0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/login_custom_button"
+                        android:text="0"
+                        android:textColor="#fff"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:baselineAligned="true"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/btn_connect"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/login_custom_button"
+                            android:contentDescription="Login"
+                            android:src="@drawable/white_mark"
+                            android:textSize="45dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rootlogintruck"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp" >
+
+                <ToggleButton
+                    android:id="@+id/btn_truck_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selectedbutton"
+                    android:drawableLeft="@drawable/login_truck"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:textOff="Vehicles"
+                    android:textOn="Vehicles"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <!-- 
+                <ToggleButton
+                    android:id="@+id/btn_sites_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selectedbutton"
+                    android:drawableLeft="@drawable/login_truck"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:textOff="Sites"
+                    android:textOn="Sites"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+               -->
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_TruckID"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="fill"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="-7dp"
+                android:layout_weight="1"
+                android:clipChildren="true"
+                android:textColor="#707070"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/lv_sml_truck_names"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="2.49"
+                android:cacheColorHint="#000000"
+                android:clickable="true"
+                android:fastScrollEnabled="true" >
+            </ListView>
+
+            <ScrollView
+                android:id="@+id/scrView"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.21"
+                android:paddingLeft="3dp"
+                android:scrollbars="none"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login Comments: "
+                        android:textColor="#e6a715"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView5"
+                        android:layout_marginLeft="10dp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Comming Soon... "
+                        android:textColor="#e6a715"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_marginTop="2dp"
+                        android:text="Device Name:"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/textView6"
+                        android:layout_marginLeft="10dp"
+                        android:text="Device Name"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView3"
+                        android:layout_marginTop="2dp"
+                        android:text="Last sync:"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/textView7"
+                        android:layout_marginLeft="10dp"
+                        android:text="Last sync timestamp"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView4"
+                        android:layout_marginTop="2dp"
+                        android:text="IMEI:"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/imei_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/textView1"
+                        android:layout_marginLeft="10dp"
+                        android:text="IMEI"
+                        android:textColor="#e6a715"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

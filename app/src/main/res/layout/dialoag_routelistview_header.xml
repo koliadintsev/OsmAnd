@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="17dp" >
+
+    <ImageView
+        android:id="@+id/iMg_dialog_title"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/dialog_route_list"
+        android:src="@drawable/dialog_map_route" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/iMg_dialog_title"
+        android:text="@string/dialog_route_list"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/drh_btn_construction_locations"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/off"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/none"
+            android:scaleType="fitCenter"
+            android:src="@drawable/construction_location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/construction_locations"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iMg_cancel_dialog"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/close"
+        android:src="@drawable/dialog_close" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toLeftOf="@+id/iMg_cancel_dialog"
+        android:gravity="center_horizontal"
+        android:text="@string/close"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iMg_none"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/allLocations"
+        android:contentDescription="@string/none"
+        android:src="@drawable/close" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toLeftOf="@+id/iMg_none"
+        android:gravity="center_horizontal"
+        android:text="@string/none"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/drh_btn_marker_installation"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/textView3"
+        android:background="@drawable/off"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/none"
+            android:scaleType="fitCenter"
+            android:src="@drawable/marker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/btn_marker_installation"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/allLocations"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:background="@drawable/off"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/none"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sl_active" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/maintenance_locations"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

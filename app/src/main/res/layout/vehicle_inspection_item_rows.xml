@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topContainer"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_black"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="Inspection Type"
+                android:textColor="#e6a715"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/btn_pre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.92"
+                android:background="@drawable/selectedbutton"
+                android:textColor="@android:color/black"
+                android:textOff="Pre Departure"
+                android:textOn="Pre Departure"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/btn_eod"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.92"
+                android:background="@drawable/selectedbutton"
+                android:textColor="@android:color/black"
+                android:textOff="End Of Day"
+                android:textOn="End Of Day"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1.95"
+                android:gravity="center_vertical"
+                android:text="Inspection Item"
+                android:textColor="#e6a715"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="0.38"
+                android:gravity="center"
+                android:text="Status"
+                android:textColor="#e6a715"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/inspectvehiclescroll"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp" >
+
+            <LinearLayout
+                android:id="@+id/inspectvehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- <ScrollView -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="0dp" -->
+        <!-- android:layout_marginLeft="15dp" -->
+        <!-- android:layout_marginRight="5dp" -->
+        <!-- android:layout_weight="1.38" > -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/inspectvehicleevening" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:orientation="vertical" > -->
+        <!-- </LinearLayout> -->
+        <!-- </ScrollView> -->
+
+        <EditText
+            android:id="@+id/et_inspection_notes"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="top"
+            android:hint="Tap here to enter comments (optional)"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Button
+            android:id="@+id/btn_inspection_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_green_button"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Submit and Close"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

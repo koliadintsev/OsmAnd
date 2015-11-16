@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_add_service_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_black"
+        android:padding="3dp"
+        android:text="sample"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+</LinearLayout>

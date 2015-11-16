@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tuprolog">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/tuprolog.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

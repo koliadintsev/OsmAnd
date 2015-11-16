@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iMg_arrow_dialog"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/dialog_map_arrow" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_toRightOf="@+id/iMg_arrow_dialog"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:textColor="#ffffff"
+        android:paddingTop="10dp"
+        android:text="Testing"
+        android:textSize="14dip"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iMg_arrow_dialog"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/toggle_button"
+        android:text="ToggleButton" />
+
+</RelativeLayout>

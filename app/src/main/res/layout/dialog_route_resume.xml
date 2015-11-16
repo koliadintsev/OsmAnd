@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp" >
+
+    <Button
+        android:id="@+id/btn_resume_route"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/on"
+        android:text="Resume Route"
+        android:textColor="@color/color_white" >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_start_as_new"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/off"
+        android:text="Start As New"
+        android:textColor="@color/color_white" >
+
+    </Button>
+
+</LinearLayout>

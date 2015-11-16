@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    android:orientation="horizontal"
+    tools:context=".activities.NavigatePointActivity" >
+
+    <!--
+        LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+    -->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView android:layout_marginTop="-8dp"
+            android:id="@+id/imgView_wc_login_text"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/snowboard" />
+
+		<!--TextView
+		    android:id="@+id/businessType_Login"
+		    android:layout_width="120dp"
+		    android:layout_height="45dp"
+		    android:layout_gravity="top|left"
+		    android:layout_marginLeft="3dp"
+		    android:text="businessType"
+		    android:textColor="#000000"
+		    android:textStyle="bold" /-->
+            
+        <TextView android:id="@+id/txtversion"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-2dp"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="1.0.08"
+            android:textColor="#666666" >
+        </TextView>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/button_chat"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/mapview_header_custom_button"
+        android:scaleType="center"
+        android:src="@drawable/map_action_chat"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_weight="20"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_sactivity_assigned"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sa_assigned" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sactivity_assigned"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sactivity_in_direction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sa_in_direction" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sactivity_in_direction"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sactivity_received"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:id="@+id/img_sactivity_received"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mapview_header_custom_button"
+                android:src="@drawable/sa_received" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sactivity_received"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_slctivity_active"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sl_active" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_slctivity_active"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sl_completed_now"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/service_location_completed_now" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sl_completed_now"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sl_completed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sl_completed" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sl_completed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_slctivity_go_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sl_go_back" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_slctivity_go_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mission_active"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/mission_active" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_mission_active"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mission_enable"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/mission_enabled" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_mission_enable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_marker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/marker" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_marker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/ll_sl_construction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_construction_location" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tv_sl_construction"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="00"
+                android:textColor="#cc0000"
+                android:textSize="15dp" />
+        </LinearLayout>
+        
+
+        <ImageButton
+            android:id="@+id/button_route"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_routes" />
+
+        <ImageButton
+            android:id="@+id/button_service_activity"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_service_activity"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_punch_clock"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_clock" />
+
+        <ImageButton
+            android:id="@+id/button_incident"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_demag" />
+
+        <ImageButton
+            android:id="@+id/button_create"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_add"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_refuel"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_refuel" />
+
+        <ImageButton
+            android:id="@+id/vehicle_inspection"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_service_activity" />
+
+        <ImageButton
+            android:id="@+id/button_transport"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_transport"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_foreman_daily_sheet"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_chat"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_logout"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_logout" />
+
+        <ImageButton
+            android:id="@+id/button_help"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/mapview_header_custom_button"
+            android:scaleType="center"
+            android:src="@drawable/map_action_help" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/driverlast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Driver Name"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vehicleid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle No"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

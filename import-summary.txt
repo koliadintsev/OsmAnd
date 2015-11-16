@@ -1,0 +1,236 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .externalToolBuilders\
+* .externalToolBuilders\SVN Revision Update.launch
+* .gitignore
+* 2014-01-09_12-37_Thu.gpx
+* ant-lib\
+* ant-lib\ant-googlecode-0.0.2.jar
+* ant-lib\asm-3.2.jar
+* ant-lib\ganymed.jar
+* ant-lib\jaxen-1.1.1.jar
+* ant-lib\pmd-4.2.6.jar
+* ant-lib\svnClientAdapter.jar
+* ant-lib\svnant.jar
+* ant-lib\svnjavahl.jar
+* ant-lib\svnkit.jar
+* ant.properties
+* bidforfix.xml
+* bug20131123.txt
+* build.xml
+* local.properties.sample
+* osmand_like.xml
+* proguard.cfg
+* project.backup
+* scripts\
+* scripts\generate.sh
+* svn-revision.build.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* jni\ => app\src\main\jni\
+* libs\bsh-core-2.0b4.jar => app\libs\bsh-core-2.0b4.jar
+* libs\bzip2-20090327.jar => app\libs\bzip2-20090327.jar
+* libs\commons-lang-2.6.jar => app\libs\commons-lang-2.6.jar
+* libs\icu4j-49_1.jar => app\libs\icu4j-49_1.jar
+* libs\junidecode-0.1.jar => app\libs\junidecode-0.1.jar
+* libs\tuprolog.jar => app\libs\tuprolog.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* C:\Users\Michael\AndroidStudioProjects\snowboard-simplibus\snowboard-simplibus\SnowboardTestsTest\res\ => app\src\androidTest\res\
+* C:\Users\Michael\AndroidStudioProjects\snowboard-simplibus\snowboard-simplibus\SnowboardTestsTest\src\ => app\src\androidTest\java\
+* C:\Users\Michael\workspace\ => app\src\main\java\
+* C:\Users\Michael\workspace\.metadata\.lock => app\src\main\resources\.metadata\.lock
+* C:\Users\Michael\workspace\.metadata\.log => app\src\main\resources\.metadata\.log
+* C:\Users\Michael\workspace\.metadata\.mylyn\.taskListIndex\segments.gen => app\src\main\resources\.metadata\.mylyn\.taskListIndex\segments.gen
+* C:\Users\Michael\workspace\.metadata\.mylyn\.taskListIndex\segments_1 => app\src\main\resources\.metadata\.mylyn\.taskListIndex\segments_1
+* C:\Users\Michael\workspace\.metadata\.mylyn\.tasks.xml.zip => app\src\main\resources\.metadata\.mylyn\.tasks.xml.zip
+* C:\Users\Michael\workspace\.metadata\.mylyn\repositories.xml.zip => app\src\main\resources\.metadata\.mylyn\repositories.xml.zip
+* C:\Users\Michael\workspace\.metadata\.mylyn\tasks.xml.zip => app\src\main\resources\.metadata\.mylyn\tasks.xml.zip
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.cdt.core\.log => app\src\main\resources\.metadata\.plugins\org.eclipse.cdt.core\.log
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.cdt.core\Osmand-kernel.1447679140081.pdom => app\src\main\resources\.metadata\.plugins\org.eclipse.cdt.core\Osmand-kernel.1447679140081.pdom
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.cdt.make.core\.log => app\src\main\resources\.metadata\.plugins\org.eclipse.cdt.make.core\.log
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c => app\src\main\resources\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp => app\src\main\resources\.metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\2c\90a8ef9f648c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\2c\90a8ef9f648c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\35\c00ca0df628c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\35\c00ca0df628c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\36\d0a4a2df628c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\36\d0a4a2df628c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\3e\70fd81df628c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\3e\70fd81df628c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\3e\d026f59f648c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\3e\d026f59f648c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\6f\60657fdf628c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\6f\60657fdf628c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.history\af\c08ef29f648c00151678918cf55a43cf => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.history\af\c08ef29f648c00151678918cf55a43cf
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.jdt.core.external.folders\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.jdt.core.external.folders\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.indexes\af\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.indexes\af\history.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.indexes\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\.markers
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\AceCommunicator\org.eclipse.jdt.core\state.dat
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\.markers
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\DataExtractionOSM\org.eclipse.jdt.core\state.dat
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.indexes\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Osmand-kernel\.markers
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\a0\de\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\a0\de\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\af\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\af\history.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.indexes\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\.markers
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\Snowboard\org.eclipse.jdt.core\state.dat
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.indexes\af\history.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.indexes\af\history.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.indexes\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.location => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.location
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.markers => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\.markers
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\org.eclipse.jdt.core\state.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.projects\SnowboardTests\org.eclipse.jdt.core\state.dat
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\history.version
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\.indexes\properties.version
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\3.tree => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.root\3.tree
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources => app\src\main\resources\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\com.android.ide.eclipse.adt.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prj-Osmand-kernel.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.core.prj-Osmand-kernel.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.debug.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.debug.core.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.cdt.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.core.resources.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.core.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.debug.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.mpc.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.epp.mpc.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.core.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.launching.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.jdt.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.m2e.discovery.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.context.core.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.monitor.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.mylyn.tasks.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.team.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.editors.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.ide.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.wst.sse.ui.prefs => app\src\main\resources\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.wst.sse.ui.prefs
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.debug.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.debug.ui\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi => app\src\main\resources\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdt => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdx => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fdx
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fnm => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.fnm
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.frq => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.frq
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.nrm => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.nrm
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tii => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tii
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tis => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\_0.tis
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments.gen => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments.gen
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments_1 => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\history\segments_1
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdt => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdx => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.fdx
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.tis => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_0.tis
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdt => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdx => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fdx
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fnm => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.fnm
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.frq => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.frq
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.nrm => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.nrm
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.prx => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.prx
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tii => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tii
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tis => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\_1.tis
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments.gen => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments.gen
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments_2 => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\remote-index\segments_2
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\server-config.json => app\src\main\resources\.metadata\.plugins\org.eclipse.epp.logging.aeri.ui\server-config.json
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.equinox.p2.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.equinox.p2.ui\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\.org.eclipse.jdt.core.external.folders\.project => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\.org.eclipse.jdt.core.external.folders\.project
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1001462949.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1001462949.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1017853417.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1017853417.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1045485630.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1045485630.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1128697673.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1128697673.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1133901812.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1133901812.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\115418958.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\115418958.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1337478678.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1337478678.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\146968450.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\146968450.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1534373515.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1534373515.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1545081295.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1545081295.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1787405673.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1787405673.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\1807483413.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\1807483413.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2148527786.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2148527786.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2274400065.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2274400065.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2307346564.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2307346564.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2363177286.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2363177286.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2421732433.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2421732433.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2532695085.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2532695085.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2535676096.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2535676096.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2674037006.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2674037006.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\2797201925.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\2797201925.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3040036557.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3040036557.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3045053200.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3045053200.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\323251068.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\323251068.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3360132882.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3360132882.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3401914215.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3401914215.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3411580636.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3411580636.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\355369697.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\355369697.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3604769962.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3604769962.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3656756579.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3656756579.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3716007315.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3716007315.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3723539909.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3723539909.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3771845102.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3771845102.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\382068233.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\382068233.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\392046463.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\392046463.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\3954291735.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\3954291735.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\4081449906.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4081449906.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\4121085059.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4121085059.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\4126979354.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4126979354.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\415689325.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\415689325.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\4187470955.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\4187470955.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\533208796.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\533208796.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\552303203.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\552303203.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\605290374.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\605290374.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\651899628.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\651899628.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\994834796.index => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\994834796.index
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\assumedExternalFilesCache
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\externalFilesCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\externalFilesCache
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\externalLibsTimeStamps
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\indexNamesMap.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\indexNamesMap.txt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\javaLikeNames.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\javaLikeNames.txt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\nonChainingJarsCache
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\savedIndexNames.txt
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.launching\libraryInfos.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\OpenTypeHistory.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.jdt.ui\QualifiedTypeNameHistory.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log => app\src\main\resources\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.m2e.logback.configuration\logback.1.6.2.20150902-0002.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.m2e.logback.configuration\logback.1.6.2.20150902-0002.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.oomph.setup\workspace.setup => app\src\main\resources\.metadata\.plugins\org.eclipse.oomph.setup\workspace.setup
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.ide\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.workbench\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.ui.workbench\workingsets.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.wst.internet.cache\cache.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.internet.cache\cache.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.wst.sse.core\task-tags.properties => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.sse.core\task-tags.properties
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.wst.sse.ui\dialog_settings.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.sse.ui\dialog_settings.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.wst.xml.core\default_catalog.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.xml.core\default_catalog.xml
+* C:\Users\Michael\workspace\.metadata\.plugins\org.eclipse.wst.xml.core\system_catalog.xml => app\src\main\resources\.metadata\.plugins\org.eclipse.wst.xml.core\system_catalog.xml
+* C:\Users\Michael\workspace\.metadata\version.ini => app\src\main\resources\.metadata\version.ini
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

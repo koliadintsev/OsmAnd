@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/asa_button1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="45dip"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/asa_button4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="4"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="5"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="6"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/asa_button7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="7"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="8"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_button9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="9"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/asa_buttonClear"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/login_custom_button"
+                        android:src="@drawable/custom_delete_button"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/asa_button0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/asa_buttonPoint"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_custom_button"
+                    android:text="."
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="Contract Line Item(s)"
+                    android:textColor="#e6a715"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Format"
+                    android:textColor="#e6a715"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Qty (Contract)"
+                    android:textColor="#e6a715"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Quantity"
+                    android:textColor="#e6a715"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <!-- <TextView -->
+                <!-- android:layout_width="0dp" -->
+                <!-- android:layout_height="45dp" -->
+                <!-- android:layout_gravity="right|center_vertical" -->
+                <!-- android:layout_marginRight="5dp" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="Time" -->
+                <!-- android:textColor="#e6a715" -->
+                <!-- android:textSize="20dp" -->
+                <!-- android:textStyle="bold" /> -->
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_sal_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </ScrollView>
+
+            <!--
+         ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.45"
+        android:dividerHeight="4dp" /
+            -->
+
+
+            <!-- <EditText -->
+            <!-- android:id="@+id/et_sal_jobnotes" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="90dp" -->
+            <!-- android:background="@android:drawable/editbox_background" -->
+            <!-- android:gravity="top" -->
+            <!-- android:hint="Tap here to enter comments (optional)" -->
+            <!-- android:textSize="25dp" -->
+            <!-- android:textStyle="bold" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+       >
+
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="match_parent" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:orientation="horizontal" > -->
+
+        <Button
+            android:id="@+id/btn_sal_submit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.4"
+            android:background="#5dc204"
+            android:text="SUBMIT"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_sal_jobnotes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="top"
+            android:hint="Tap here to enter comments (optional)"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_sal_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:text="NEXT"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
